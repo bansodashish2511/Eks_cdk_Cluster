@@ -1,0 +1,29 @@
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.env
+*.venv/
+Pipfile.lock
+
+# AWS CDK
+cdk.out/
+cdk.context.json
+node_modules/
+
+# IDE specific
+.vscode/
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment-specific files
+.env
+*.log
+
+# Ignore dependencies file
+requirements.txt
